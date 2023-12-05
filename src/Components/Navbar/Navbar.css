@@ -71,3 +71,11 @@
     background: red;
     color: white;
 }
+@media only screen and (max-width: 600px) {
+  .nav-menu {
+    display: none;
+  }
+  .nav-login-cart{
+    display: none;
+  }
+}

@@ -46,3 +46,19 @@
     border-radius: 50%;
     overflow: hidden;
 }
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    display: block;
+  }
+  .hero-left{
+    padding-left: 10px;
+    padding-top: 50px;
+  }
+  .hero-left h2{
+    font-size: 20px;
+  }
+  .hero-left p{
+    font-size: 40px;
+  }
+}
