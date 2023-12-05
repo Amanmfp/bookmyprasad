@@ -21,10 +21,17 @@ const Footer = () => {
       </ul>
       <div className="footer-social-icon">
         <div className="footer-icons-container">
-          <img src={instagram_icon} alt="" />
+          <a
+            href="https://instagram.com/bookmyprasad?igshid=NzZlODBkYWE4Ng=="
+            target="#"
+          >
+            <img src={instagram_icon} alt="" />
+          </a>
         </div>
         <div className="footer-icons-container">
-          <img src={pinterest_icon} alt="" />
+          <a href="https://pin.it/4nMRMF1" target="#">
+            <img src={pinterest_icon} alt="" />
+          </a>
         </div>
         <div className="footer-icons-container">
           <img src={whatsapp_icon} alt="" />

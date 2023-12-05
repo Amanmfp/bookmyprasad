@@ -4,6 +4,7 @@
 }
 .item p{
     margin: 6px 0px;
+    padding-right: 20px;
 }
 .item-prices{
     display: flex;
