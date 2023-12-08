@@ -50,7 +50,9 @@
 }
 @media only screen and (max-width: 768px) {
   .newsletter{
-    padding: 110px 76px;
+    width: auto;
+    padding: 70px 40px;
+    margin-bottom: 70px;
   }  
   .newsletter h1 {
     font-size: 28px;
@@ -59,6 +61,6 @@
     width: 350px;
   }
   .newsletter input{
-    width: 200px;
+    width: 170px;
   }
 }

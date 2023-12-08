@@ -75,7 +75,15 @@
   .nav-menu {
     display: none;
   }
-  .nav-login-cart{
+  .login-btn{
     display: none;
+  }
+  .nav-logo p{
+    color: #171717;
+    font-size: 26px;
+  }
+  .nav-logo img{
+    height: 30px;
+    width: 32px;
   }
 }

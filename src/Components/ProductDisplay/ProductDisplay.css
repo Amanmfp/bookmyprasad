@@ -59,3 +59,25 @@
     cursor: pointer;
 
 }
+
+@media only screen and (max-width: 768px) {
+  .productdisplay{
+    display: block;
+    margin: 0px 30px;
+  }
+ .productdisplay-image img{
+    height: 380px;
+    width: 320px;
+  }
+  .productdisplay-left{
+    margin-top: 40px;
+  }
+  .productdisplay-right{
+
+    margin: 0px 20px;
+    margin-top: 40px;
+}
+   .productdisplay-right h1{
+    font-size: 26px;
+   }
+}

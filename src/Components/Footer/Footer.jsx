@@ -13,7 +13,9 @@ const Footer = () => {
         <p>BookMyPrasad</p>
       </div>
       <ul className="footer-links">
-        <li>Company</li>
+        <a href="https://navyasoftwaresolutions.com/" target="#">
+          <li>Company</li>
+        </a>
         <li>Products</li>
         <li>About</li>
         <li>Help</li>

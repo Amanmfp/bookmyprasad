@@ -20,8 +20,7 @@ const Navbar = () => {
         <li onClick={()=>{setMenu("Contact Us")}}><Link style={{textDecoration: 'none'}} to='/Contact'>Contact Us</Link>{menu==="Contact Us"?<hr/>:<></>}</li>
       </ul>
       <div className="nav-login-cart">
-        
-        <Link style={{textDecoration: 'none'}} to='/login'><button>Login</button></Link>
+        <Link style={{textDecoration: 'none'}} to='/login'><button className='login-btn'>Login</button></Link>
         <Link style={{textDecoration: 'none'}} to='cart'> <img src={cart_icon} alt='cart_icon'/></Link>
         <div className="nav-cart-count">0</div>
       </div>
