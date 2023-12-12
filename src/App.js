@@ -9,6 +9,8 @@ import Cart from './Pages/Cart';
 import Footer from './Components/Footer/Footer';
 import Product from './Pages/Product';
 import DeliveryAddress from './Components/DeliveryAddress/DeliveryAddress';
+import Thankyou from './Components/Thankyou/Thankyou';
+import ProductPage from './Pages/ProductPage';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
           <Route path="/login" element={<LoginSignup />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/delivery" element={<DeliveryAddress />} />
+          <Route path="/thankyou" element={<Thankyou />} />
+          <Route path="/productpage" element={<ProductPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

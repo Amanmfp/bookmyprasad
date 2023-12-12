@@ -3,6 +3,7 @@ import './ProductDisplay.css'
 import star_icon from '../Assets/star_icon.png'
 import star_dull_icon from '../Assets/star_dull_icon.png'
 import { ShopContext } from '../../Context/ShopContext'
+import { Link } from 'react-router-dom'
 
 const ProductDisplay = (props) => {
     const{product}=props;
@@ -37,9 +38,30 @@ const ProductDisplay = (props) => {
           </div>
         </div>
         <div className="productdisplay-right-description">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam sit, fuga esse modi est deserunt nihil temporibus nesciunt harum. Fugiat nulla obcaecati autem accusamus nesciunt quis laborum deserunt. Consequatur, dignissimos!
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam sit,
+          fuga esse modi est deserunt nihil temporibus nesciunt harum. Fugiat
+          nulla obcaecati autem accusamus nesciunt quis laborum deserunt.
+          Consequatur, dignissimos!
         </div>
-        <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
+        <div className="buttontocart">
+          <button
+            onClick={() => {
+              addToCart(product.id);
+            }}
+          >
+            ADD TO CART
+          </button>
+          <Link style={{ textDecoration: "none" }} to="/cart">
+            <button
+              className="buynow-btn"
+              onClick={() => {
+                addToCart(product.id);
+              }}
+            >
+              BUY NOW
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );

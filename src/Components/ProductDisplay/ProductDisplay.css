@@ -52,12 +52,19 @@
     font-size: 16px;
     font-weight: 600;
     color: white;
-    background: #ff4141;
+    background: #ff9f00;
     margin-bottom: 40px;
     border: none;
     outline: none;
     cursor: pointer;
 
+}
+.buttontocart{
+    display: flex;
+    gap: 50px;
+}
+.buynow-btn{
+    background: #fb641b!important;
 }
 
 @media only screen and (max-width: 768px) {

@@ -36,7 +36,7 @@ const DeliveryAddress = () => {
       });
       await response.json()
       SetData({ ...data,name:"",email:"",address:"",state:"",pin:"",phone:""})
-      navigate("/Services");
+      navigate("/thankyou");
 
     }catch(err){
       console.log(err)
@@ -91,7 +91,7 @@ const DeliveryAddress = () => {
             onChange={handleChange}
           />
         </div>
-        <Link style={{ textDecoration: "none" }} to="/Services">
+        <Link style={{ textDecoration: "none" }} to="/thankyou">
           <button onClick={handleSubmit}>BOOK NOW</button>
         </Link>
       </div>

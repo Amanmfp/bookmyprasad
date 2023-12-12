@@ -41,8 +41,8 @@ const Navbar = () => {
             setMenu("Services");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/Services">
-            Services
+          <Link style={{ textDecoration: "none" }} to="/productpage">
+            Products
           </Link>
           {menu === "Services" ? <hr /> : <></>}
         </li>

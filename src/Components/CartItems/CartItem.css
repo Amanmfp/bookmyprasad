@@ -36,6 +36,7 @@
 }
 .cartitems-down{
     display: flex;
+    gap: 50px;
     margin: 100px 0px;
 }
 .cartitems-total{

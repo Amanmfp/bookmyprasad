@@ -65,7 +65,7 @@ const CartItems = () => {
           <Link style={{ textDecoration: "none" }} to="/delivery"> <button>PROCEED TO CHECKOUT</button></Link>
         </div>
         <div className="cartitems-promocode">
-          <p>if you have a promo code entered it here.</p>
+          <p>If you have a promo code entered it here.</p>
           <div className="cartitems-promobox">
             <input type="text" placeholder="promocode" />
             <button>Submit</button>
