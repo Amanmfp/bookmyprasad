@@ -6,31 +6,24 @@ import p4_img from './product_4.jpg'
 let data_product = [
   {
     id: 1,
-    name: "Puffed Rice, Amlok, Dried Apple, Misri:-250g",
+    name: "Divine Blessings Prasad-1",
     image: p1_img,
     new_price: 499,
     old_price: 699,
   },
   {
     id: 2,
-    name: "Puffed Rice, Amlok, Dried Apple, Misri:-500g",
-    image: p2_img,
-    new_price: 999,
-    old_price: 1299,
+    name: "Divine Blessings Prasad-2",
+    image: p4_img,
+    new_price: 599,
+    old_price: 899,
   },
   {
     id: 3,
-    name: "Puffed Rice, Amlok, Dried Apple, Misri:-750g",
+    name: "Divine Blessings Prasad-3",
     image: p3_img,
-    new_price: 1499,
-    old_price: 1849,
-  },
-  {
-    id: 4,
-    name: "Puffed Rice, Amlok, Dried Apple, Misri:-1kg",
-    image: p4_img,
-    new_price: 1999,
-    old_price: 2449,
+    new_price: 699,
+    old_price: 1249,
   },
 ];
 

@@ -95,3 +95,51 @@
     cursor: pointer;
 
 }
+.cartitems-format-main-mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .cartitems-format-main{
+    display: none;
+}
+.cartitems-format-main-mobile{
+    display: block;
+}
+.cartitems-format-main-mobile-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.margin-top{
+    margin-top: 50px;
+}
+.give-margin{
+    margin-bottom: 50px;
+}
+.carticon-remove-icon{
+    width: auto;
+    margin: 0;
+    height: 18px;
+}
+ .cartitems-down{
+    display: block;
+ }
+ .cartitems{
+    margin: 100px 40px;
+ }
+ .cartitems-total{
+    margin-bottom: 50px;
+ }
+ .cartitems-promobox{
+    width: auto;
+ }
+ .cartitems-promobox button{
+    border: none;
+    width: 156px;
+ }
+ .cartitems-promobox input{
+    border: none;
+    width: 170px;
+ }
+}

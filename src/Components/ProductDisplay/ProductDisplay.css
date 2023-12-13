@@ -87,4 +87,11 @@
    .productdisplay-right h1{
     font-size: 26px;
    }
+
+   .buttontocart{
+    display: block;
+}
+    .productdisplay-right button{
+        margin-bottom: 30px;
+    }
 }

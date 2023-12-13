@@ -15,6 +15,55 @@ const CartItems = () => {
         <p>Total</p>
         <p>Romove</p>
       </div>
+      <div className="cartitems-format-main-mobile">
+        {data.map((e) => {
+          if (cartItems[e.id] > 0) {
+            return (
+              <div>
+                <div className="cartitems-format-main-mobile-item margin-top">
+                  <p>Products</p>
+                  <img
+                    src={e.image}
+                    alt=""
+                    className="cart-icon-product-icon"
+                  />
+                </div>
+                <div className="cartitems-format-main-mobile-item">
+                  <p>Title</p>
+                  <p>{e.name}</p>
+                </div>
+                <div className="cartitems-format-main-mobile-item">
+                  <p>Price</p>
+                  <p>{e.new_price} Rs</p>
+                </div>
+                <div className="cartitems-format-main-mobile-item">
+                  <p>Quantity</p>
+                  <button>
+                    {cartItems[e.id]}
+                  </button>
+                </div>
+                <div className="cartitems-format-main-mobile-item">
+                  <p>Total</p>
+                  <p>{e.new_price * cartItems[e.id]} Rs</p>
+                </div>
+                <div className="cartitems-format-main-mobile-item give-margin">
+                  <p>Remove</p>
+                  <img
+                    className="carticon-remove-icon"
+                    src={remove_icon}
+                    onClick={() => {
+                      removeFromCart(e.id);
+                    }}
+                    alt=""
+                  />
+                </div>
+                <hr />
+              </div>
+            );
+          }
+          return null;
+        })}
+      </div>
       <hr />
       {data.map((e) => {
         if (cartItems[e.id] > 0) {
@@ -62,7 +111,10 @@ const CartItems = () => {
               <h3>{getTotalCartAmount()} Rs</h3>
             </div>
           </div>
-          <Link style={{ textDecoration: "none" }} to="/delivery"> <button>PROCEED TO CHECKOUT</button></Link>
+          <Link style={{ textDecoration: "none" }} to="/delivery">
+            {" "}
+            <button>PROCEED TO CHECKOUT</button>
+          </Link>
         </div>
         <div className="cartitems-promocode">
           <p>If you have a promo code entered it here.</p>
