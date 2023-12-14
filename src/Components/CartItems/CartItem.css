@@ -132,14 +132,14 @@
     margin-bottom: 50px;
  }
  .cartitems-promobox{
-    width: 320px;
+    width: 300px;
  }
  .cartitems-promobox button{
     border: none;
-    width: 145px;
+    width: 138px;
  }
  .cartitems-promobox input{
     border: none;
-    width: 170px;
+    width: 155px;
  }
 }
