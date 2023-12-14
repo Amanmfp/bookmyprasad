@@ -63,10 +63,12 @@
 }
 @media only screen and (max-width: 768px) {
  .loginsignup-container button{
-    width: 200px;
+    width: 155px;
+    height: 60px;
+    font-size: 18px;
  }
  .loginsignup-container{
-    width: 300px;
+    width: 250px;
  }
  .loginsignup{
     padding-bottom: 100px;

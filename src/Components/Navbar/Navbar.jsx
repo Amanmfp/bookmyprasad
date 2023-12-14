@@ -11,10 +11,12 @@ const Navbar = () => {
     const [menu,setMenu] = useState("Home");
   return (
     <div className="navbar">
-      <div className="nav-logo">
-        <img src={logo} alt="logo_img" />
-        <p>BookMyPrasad</p>
-      </div>
+      <Link style={{ textDecoration: "none" }} to="/Services">
+        <div className="nav-logo">
+          <img src={logo} alt="logo_img" />
+          <p>BookMyPrasad</p>
+        </div>
+      </Link>
       <ul className="nav-menu">
         <li
           onClick={() => {
