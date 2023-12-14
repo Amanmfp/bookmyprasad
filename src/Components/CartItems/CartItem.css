@@ -72,11 +72,10 @@
     color: #555;
 }
 .cartitems-promobox{
+    display: flex;
     width: 504px;
     margin-top: 15px;
-    padding-left: 20px;
     height: 58px;
-    background: #eaeaea;
 }
 .cartitems-promobox input{
     border: none;
@@ -97,6 +96,10 @@
 }
 .cartitems-format-main-mobile{
     display: none;
+}
+.promobox-input{
+  background: #eaeaea;
+  padding-left: 20px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -136,7 +139,7 @@
  }
  .cartitems-promobox button{
     border: none;
-    width: 128px;
+    width: 125px;
  }
  .cartitems-promobox input{
     border: none;

@@ -38,9 +38,7 @@ const CartItems = () => {
                 </div>
                 <div className="cartitems-format-main-mobile-item">
                   <p>Quantity</p>
-                  <button>
-                    {cartItems[e.id]}
-                  </button>
+                  <button>{cartItems[e.id]}</button>
                 </div>
                 <div className="cartitems-format-main-mobile-item">
                   <p>Total</p>
@@ -117,9 +115,11 @@ const CartItems = () => {
           </Link>
         </div>
         <div className="cartitems-promocode">
-          <p>If you have a promo code enter it here..</p>
+          <p>If you have a promo code enter it here.</p>
           <div className="cartitems-promobox">
-            <input type="text" placeholder="promocode" />
+            <div className="promobox-input">
+              <input type="text" placeholder="promocode" />
+            </div>
             <button>Submit</button>
           </div>
         </div>
