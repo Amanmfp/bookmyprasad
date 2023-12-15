@@ -38,10 +38,11 @@ const ProductDisplay = (props) => {
           </div>
         </div>
         <div className="productdisplay-right-description">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam sit,
-          fuga esse modi est deserunt nihil temporibus nesciunt harum. Fugiat
-          nulla obcaecati autem accusamus nesciunt quis laborum deserunt.
-          Consequatur, dignissimos!
+          Embark on a spiritual journey with our Divine Blessings Prasad
+          Collection. Carefully curated to echo the sacred ambiance of Vaishno
+          Devi, each offering radiates positive energy and symbolizes devotion.
+          Elevate your spiritual space and connect with the divine through these
+          sacred treasures.
         </div>
         <div className="buttontocart">
           <button

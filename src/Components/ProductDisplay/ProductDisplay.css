@@ -1,6 +1,7 @@
 .productdisplay{
     display: flex;
     margin: 0px 170px;
+    margin-bottom: 40px;
 }
 .productdisplay-left{
     display: flex;
@@ -71,6 +72,7 @@
   .productdisplay{
     display: block;
     margin: 0px 30px;
+    margin-bottom: 20px;
   }
  .productdisplay-image img{
     height: 380px;

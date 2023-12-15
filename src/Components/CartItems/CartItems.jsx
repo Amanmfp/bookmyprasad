@@ -13,7 +13,7 @@ const CartItems = () => {
         <p>Price</p>
         <p>Quantity</p>
         <p>Total</p>
-        <p>Romove</p>
+        <p>Remove</p>
       </div>
       <div className="cartitems-format-main-mobile">
         {data.map((e) => {

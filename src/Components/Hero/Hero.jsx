@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="hero-left">
         <h2>Divine Blessings Delivered to your Doorstep!</h2>
         <div>
-          <p>Pure,fresh and sacred: Our Vaishno Devi Prasad</p>
+          <p>Pure, fresh and sacred: Our Vaishno Devi Prasad</p>
         </div>
         <Link style={{ textDecoration: "none" }} to="/productpage">
           <div className="order-now-btn">
